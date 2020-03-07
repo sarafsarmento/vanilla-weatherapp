@@ -22,14 +22,14 @@
       <div class="wrapper">
         <div class="weather-wrapper">
           <div class="overview">
-            <h1>
+            <h1 id="city">
               New York
             </h1>
             <ul>
               <li>
                 Friday 05:00
               </li>
-              <li>
+              <li id="description">
                 Clear Skies
               </li>
             </ul>
@@ -38,7 +38,7 @@
             <div class="col-6">
               <div class="clearfix weather-temperature">
                 <i class="fas fa-cloud cloud-iconbig" alt="cloudy"></i>
-                <strong>12</strong
+                <strong id="weather-temperature">12</strong
                 ><span class="units"
                   ><a href="">ºC</a> | <a href="">ºF</a></span
                 >
@@ -46,15 +46,8 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>
-                  Precipitation: 0%
-                </li>
-                <li>
-                  Humidity: 73%
-                </li>
-                <li>
-                  Wind: 2 km/h
-                </li>
+                <li>Humidity: <span id="humidity">73</span>%</li>
+                <li>Wind: <span id="wind">2</span> km/h</li>
               </ul>
             </div>
           </div>
