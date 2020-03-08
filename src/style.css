@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: #878787;
+  color: #ffffff;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
@@ -32,16 +32,38 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+small {
+  color: #878787;
+}
+
+a:hover,
+a:active,
+a:visited {
+  color: #a18cd1;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+#github-link {
+  color: #a18cd1 !important;
+}
+
 #github-link {
   font-size: 16px;
   display: block;
   text-align: left;
-  margin: 0 50px auto;
+  margin: 10px auto;
+  color: #878787;
 }
 
 #weather-icon {
   position: relative;
   top: -30px;
+}
+
+#weather-details {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .wrapper {
@@ -114,4 +136,10 @@ li:first-letter {
   height: auto;
   line-height: 15px;
   white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: #a18cd1 !important;
+  border: 1px solid #a18cd1 !important;
+  outline: none !important;
 }

@@ -10,6 +10,10 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/e09aff45e3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
@@ -32,7 +36,7 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="btn btn-primary w-100 "
                 />
               </div>
             </div>
@@ -52,14 +56,14 @@
             <div class="col-6">
               <div class="clearfix weather-temperature">
                 <img src="" alt="" id="weather-icon" />
-                <strong id="weather-temperature">12</strong
+                <strong id="weather-temperature"></strong
                 ><span class="units"
                   ><a href="" id="celsius-link" class="active">ºC</a> |
                   <a href="" id="fahrenheit-link" class="active">ºF</a></span
                 >
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-6" id="weather-details">
               <ul>
                 <li>Humidity: <span id="humidity">73</span>%</li>
                 <li>Wind: <span id="wind">2</span> km/h</li>
@@ -68,14 +72,14 @@
           </div>
           <div class="row weather-forecast" id="forecast"></div>
         </div>
+        <small id="github-link"
+          ><a
+            href="https://github.com/sarafsarmento/vanilla-weatherapp"
+            target="_blank"
+            >Open-source code</a
+          >, by Sara Sarmento</small
+        >
       </div>
-      <small id="github-link"
-        ><a
-          href="https://github.com/sarafsarmento/vanilla-weatherapp"
-          target="_blank"
-          >Open-source code</a
-        >, by Sara Sarmento</small
-      >
     </div>
     <script src="src/script.js"></script>
   </body>
