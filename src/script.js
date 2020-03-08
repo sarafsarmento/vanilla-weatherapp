@@ -47,7 +47,7 @@ function displayTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   weatherIconElement.setAttribute(
     "src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    `https://sad-aryabhata-ad11d0.netlify.com/media/${response.data.weather[0].icon}@2x.png`
   );
   weatherIconElement.setAttribute("alt", response.data.weather[0].description);
 }
@@ -63,7 +63,7 @@ function displayForecast(response) {
     <div class="col-2">
               <h3>${formatHours(forecast.dt * 1000)}</h3>
               <img
-                src="http://openweathermap.org/img/wn/${
+                src="https://sad-aryabhata-ad11d0.netlify.com/media/${
                   forecast.weather[0].icon
                 }@2x.png"
               />
