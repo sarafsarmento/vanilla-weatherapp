@@ -38,6 +38,11 @@ li:first-letter {
   margin: 0 50px auto;
 }
 
+#weather-icon {
+  position: relative;
+  top: -30px;
+}
+
 .wrapper {
   max-width: 600px;
   margin: 30px auto 10px;
@@ -56,13 +61,6 @@ li:first-letter {
 
 .weather-temperature {
   margin-right: 5px;
-}
-
-.cloud-iconbig {
-  color: #ffffff;
-  font-size: 30px;
-  position: relative;
-  top: -10px;
 }
 
 .weather-temperature strong {
