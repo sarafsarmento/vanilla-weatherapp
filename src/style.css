@@ -1,11 +1,11 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 24px;
-  color: #ffffff;
+  color: #ec6e4c;
 }
 
 h1 {
-  color: #ffffff;
+  color: #ec6e4c;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
@@ -20,7 +20,7 @@ ul {
 
 li {
   list-style: none;
-  color: #ffffff;
+  color: #878787;
   display: block;
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -39,13 +39,9 @@ small {
 a:hover,
 a:active,
 a:visited {
-  color: #a18cd1;
+  color: #ec6e4c;
   text-decoration: none;
-  font-weight: 400;
-}
-
-#github-link {
-  color: #a18cd1 !important;
+  font-weight: 600;
 }
 
 #github-link {
@@ -72,7 +68,6 @@ a:visited {
 }
 
 .weather-wrapper {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
@@ -87,7 +82,7 @@ a:visited {
 }
 
 .weather-temperature strong {
-  color: #ffffff;
+  color: #686767;
   font-size: 64px;
   font-weight: 400;
 }
@@ -99,7 +94,7 @@ a:visited {
 }
 
 .weather-temperature .active {
-  color: #ffffff;
+  color: #ec6e4c;
   cursor: default;
 }
 
@@ -112,7 +107,7 @@ a:visited {
 }
 
 .weather-forecast h3 {
-  color: #ffffff;
+  color: #878787;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -130,7 +125,7 @@ a:visited {
 
 .weather-forecast-temperature {
   text-align: center;
-  color: #ffffff;
+  color: #878787;
   font-size: 13px;
   font-weight: 400;
   height: auto;
@@ -139,7 +134,7 @@ a:visited {
 }
 
 .btn-primary {
-  background-color: #a18cd1 !important;
-  border: 1px solid #a18cd1 !important;
+  background-color: #ec6e4c !important;
+  border: 1px solid #ec6e4c !important;
   outline: none !important;
 }
